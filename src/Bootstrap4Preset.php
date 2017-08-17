@@ -44,6 +44,7 @@ class Bootstrap4Preset extends Preset
             'bootstrap' => '^4.0.0-beta',
             'jquery' => '^3.2.1',
             'popper.js' => '^1.11.0',
+            'precss' => '^2.0.0',
         ] + Arr::except($packages, ['foundation-sites', 'bootstrap-sass', 'bulma', 'uikit']);
     }
 

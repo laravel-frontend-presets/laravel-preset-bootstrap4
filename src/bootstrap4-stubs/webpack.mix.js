@@ -14,7 +14,9 @@ let mix = require('laravel-mix');
 mix.js([
     'node_modules/bootstrap/dist/js/bootstrap.js',
     'resources/assets/js/app.js'], 'public/js')
-   .sass('resources/assets/sass/app.scss', 'public/css')
-   .minify('public/css/app.css')
-   .sourceMaps()
-   .version();
+    .sass('resources/assets/sass/app.scss', 'public/css')
+    .options({
+        postCss: [
+            require('precss')()
+        ]
+    });
