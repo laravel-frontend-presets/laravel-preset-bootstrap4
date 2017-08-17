@@ -63,7 +63,7 @@ class Bootstrap4Preset extends Preset
             (new Filesystem)->delete($sass_file);
         }
 
-        copy(__DIR__.'/bootstrap4-stubs/_variables.scss', resource_path('assets/sass/_variables.scss'));
+        copy(__DIR__.'/bootstrap4-stubs/_custom.scss', resource_path('assets/sass/_custom.scss'));
         copy(__DIR__.'/bootstrap4-stubs/app.scss', resource_path('assets/sass/app.scss'));
     }
 
