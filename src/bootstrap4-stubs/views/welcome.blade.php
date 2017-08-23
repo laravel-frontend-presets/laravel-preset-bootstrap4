@@ -114,15 +114,6 @@
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
 
-                <div class="foundation_button_test">
-                    <p class="framwork_title">Zurb Foundation 6.4.2</p>
-                    <a class="button primary" href="#">Primary</a>
-                    <a class="button secondary" href="#">Secondary</a>
-                    <a class="button success" href="#">Success</a>
-                    <a class="button alert" href="#">Alert</a>
-                    <a class="button warning" href="#">Warning</a>
-                </div>
-
             </div>
         </div>
 
