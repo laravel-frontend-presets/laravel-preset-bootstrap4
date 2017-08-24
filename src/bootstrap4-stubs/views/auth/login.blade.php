@@ -14,14 +14,14 @@
                             <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
                                 <label class="col-md-4 control-label">E-Mail Address</label>
 
-                                <div>
+                                <div clacc="col-md-12">
                                     <input type="email" class="form-control" name="email"
                                            value="{{ old('email') }}">
 
                                     @if ($errors->has('email'))
-                                        <span class="help-block">
-                                                            <strong>{{ $errors->first('email') }}</strong>
-                                                        </span>
+                                        <span class="form-text text-muted">
+                                            {{ $errors->first('email') }}
+                                        </span>
                                     @endif
                                 </div>
                             </div>
@@ -33,9 +33,9 @@
                                     <input type="password" class="form-control" name="password">
 
                                     @if ($errors->has('password'))
-                                        <span class="help-block">
-                                                            <strong>{{ $errors->first('password') }}</strong>
-                                                        </span>
+                                        <span class="form-text text-muted">
+                                            {{ $errors->first('password') }}
+                                        </span>
                                     @endif
                                 </div>
                             </div>
