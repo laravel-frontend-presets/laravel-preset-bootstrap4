@@ -2,24 +2,14 @@
 
 @section('content')
 
-<div class="container">
+    <div class="jumbotron">
+        <div class="container p-5">
+            <h1 class="display-1">Dashboard</h1>
 
-    <div class="row">
-
-        <div class="form-container small-6 small-centered columns">
-
-            <div class="form-title text-center">
-                Dashboard
-            </div>
-
-            <div class="callout">
+            <p class="lead ml-2 text-success">
                 You are logged in!
-            </div>
-
+            </p>
         </div>
-
     </div>
-
-</div>
 
 @endsection
