@@ -11,9 +11,12 @@ let mix = require('laravel-mix');
  |
  */
 
-mix.js([
-    'node_modules/bootstrap/dist/js/bootstrap.js',
-    'resources/assets/js/app.js'], 'public/js')
+mix.autoload({
+    jquery: ['$', 'window.jQuery', 'jQuery'],
+    tether: ['window.Tether', 'Tether'],
+    'tether-shepherd': ['Shepherd']
+})
+    .js('resources/assets/js/app.js', 'public/js')
     .sass('resources/assets/sass/app.scss', 'public/css')
     .options({
         postCss: [
