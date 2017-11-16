@@ -1,5 +1,5 @@
 {
-    "name": "travoltron/bootstrap-4",
+    "name": "laravel-frontend-presets/bootstrap-4",
     "description": "Laravel 5.5.x Front-end preset for Bootstrap 4",
     "keywords": ["laravel", "preset", "bootstrap 4", "scaffolding"],
     "license": "MIT",
@@ -8,13 +8,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Travoltron\\Bootstrap4Preset\\": "src/"
+            "LaravelFrontendPresets\\Bootstrap4Preset\\": "src/"
         }
     },
     "extra": {
       "laravel": {
         "providers": [
-          "Travoltron\\Bootstrap4Preset\\Bootstrap4PresetServiceProvider"
+          "LaravelFrontendPresets\\Bootstrap4Preset\\Bootstrap4PresetServiceProvider"
        ]
       }
     }

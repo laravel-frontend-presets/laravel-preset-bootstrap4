@@ -1,5 +1,5 @@
 <?php
-namespace Travoltron\Bootstrap4Preset;
+namespace LaravelFrontendPresets\Bootstrap4Preset;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Foundation\Console\PresetCommand;

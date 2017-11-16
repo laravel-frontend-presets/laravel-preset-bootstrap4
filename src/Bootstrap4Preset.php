@@ -1,5 +1,5 @@
 <?php
-namespace Travoltron\Bootstrap4Preset;
+namespace LaravelFrontendPresets\Bootstrap4Preset;
 
 use Artisan;
 use Illuminate\Support\Arr;
